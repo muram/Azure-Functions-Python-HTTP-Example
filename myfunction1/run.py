@@ -1,8 +1,8 @@
+from __future__ import print_function
+
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'lib')))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'env/Lib/site-packages')))
-
-from __future__ import print_function
 import json, requests, datetime
 
 #Put your user API key and CID
